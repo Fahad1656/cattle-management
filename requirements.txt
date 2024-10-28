@@ -1,12 +1,9 @@
 fastapi
 uvicorn
-tensorflow
+tensorflow-cpu  # Use the CPU version to avoid CUDA issues
 numpy
 pillow
 pyngrok
 requests
 gunicorn
 python-multipart
-
-
-
