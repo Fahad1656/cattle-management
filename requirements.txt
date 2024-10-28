@@ -7,5 +7,6 @@ pyngrok
 requests
 gunicorn
 python-multipart
+tensorflow-cpu
 
 
