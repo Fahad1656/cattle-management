@@ -6,7 +6,7 @@ from routes.muzzle import router as muzzle_router
 from routes.detect import router as detect_router
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
 # Initialize FastAPI app

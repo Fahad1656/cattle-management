@@ -44,6 +44,7 @@ async def detect(file: UploadFile = File(...)):
 
     try:
         # Preprocess the uploaded image
+        
         new_image = preprocess_for_disease(temp_image_path)
 
         if new_image is not None:
