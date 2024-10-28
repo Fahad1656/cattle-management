@@ -6,5 +6,6 @@ pillow
 pyngrok
 requests
 gunicorn
+python-multipart
 
 
