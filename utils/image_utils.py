@@ -5,6 +5,7 @@ from PIL import Image, UnidentifiedImageError
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import img_to_array
 from io import BytesIO
+import torch
 
 def preprocess_image(image_path, target_size=(128, 128)):
     """Preprocess the image for model prediction."""

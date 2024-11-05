@@ -6,3 +6,5 @@ pillow
 pyngrok
 requests
 python-multipart
+torch
+ultralytics 
